@@ -23,7 +23,7 @@ public class VaultServiceImpl implements VaultService {
     @Override
     public void addSecret(AddSecretRequest request) {
         if (Objects.nonNull(request)) {
-            vaultTemplate.write(request.getSecretKey(), "request");
+            vaultTemplate.write(request.getSecretKey(), request.getSecretValue());
         }
     }
 
