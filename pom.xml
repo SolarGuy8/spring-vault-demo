@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <spring-vault.version>2.2.2.RELEASE</spring-vault.version>
+        <spring-vault.version>2.3.3</spring-vault.version>
     </properties>
 
     <dependencies>
